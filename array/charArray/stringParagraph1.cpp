@@ -11,6 +11,17 @@ int main() {
 }
 
 ************************IO***************************
+
 ddfjkdfwldfwekfdjwe . iehwqekwqeqwe ihwqweeqwe
+
 ddfjkdfwldfwekfdjwe 
+
+
+dhwdkbasDKJ JGDASJDASDSD	IOQWERHWIEWQE	
+KWRJHWEKR WEH TGQJWEQWKEWQEUW . GJQEKEWJEWE GW	JWQ	W
+
+dhwdkbasDKJ JGDASJDASDSD	IOQWERHWIEWQE	
+KWRJHWEKR WEH TGQJWEQWKEWQEUW 
+
+
 
