@@ -1,0 +1,25 @@
+//https://github.com/sachin-duhan26/COMPETITVE-PROGRAMMING/blob/master/ALGORITHM/GREEDY/860.%20Lemonade%20Change.cpp
+
+class Solution {
+public:
+    bool lemonadeChange(vector<int> &bills) {
+        
+        int five = 0, ten = 0, twenty = 0;
+        
+        for(int i = 0; i < bills.size(); i++) {
+            if(bills[0] != 5) { return false; }
+            else if(bills[i] == 5) { five++; continue; }
+            else if(bills[i]  == 10) {
+                ten++;
+                if(five >= 1) { five--; continue; }
+                else { return false; }
+            }
+            else {
+                twenty++;
+                if(five >= 3) { five =  five - 3; continue; }
+                else if(ten >= 1 && five >= 1) { ten--; five--; continue; }
+                else { return false; }
+            }
+        }
+    }
+};
